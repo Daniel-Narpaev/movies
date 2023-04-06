@@ -1,0 +1,28 @@
+.Addbtn {
+    background-color: orange;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.Editbtn {
+    background-color: rgb(5, 1, 255);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+.Deletebtn {
+    background-color: rgb(255, 30, 0);
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
