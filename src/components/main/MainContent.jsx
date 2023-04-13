@@ -1,7 +1,7 @@
 import React from 'react'
 import Content from '../content/Content'
 
-const MainContent = ({movies}) => {
+const MainContent = ({movies, deleteHandler, onShowModal}) => {
   return (
     <div>
       {movies.map((el) => {
@@ -9,7 +9,10 @@ const MainContent = ({movies}) => {
         <Content key={el.id}
             title={el.title}
             image={el.image}
-            rating={el.rating}/>
+            rating={el.rating}
+            id={el.id}
+            deleteHandler={deleteHandler}
+            onShowModal={onShowModal}/>
             )
       })}
     </div>
